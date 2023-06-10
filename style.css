@@ -1,0 +1,311 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+/* Begin: Endless */
+
+.Endless{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TopEndless{
+    display:flex;
+    flex-wrap:wrap;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 45em;
+    margin:auto;
+}
+
+.EndlessMain{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.EndlessText{
+    font-size: 16px;
+    padding-top:16px;
+}
+
+.EndlessPossibilities{
+    
+    Display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-top: 48px;
+    flex-basis: 100%;
+    margin:auto; 
+    
+    
+}
+
+
+
+.EndlessPossibilities div{
+    max-width: 22.5em;
+
+      
+}
+
+
+.FCard {
+    margin-right: 24px;
+
+}
+
+.SCard {
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.TCard {
+    margin-left: 24px;
+}
+
+.ImgBlock{
+    padding-bottom:24px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.CardCont{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align: center;
+}
+
+.CardMain {
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.CardBody {
+    font-size:16px;
+    padding-top:16px;
+}
+
+
+.Lm {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #FFFF;
+    color:#008248;
+    
+    border-bottom-color:2px solid #008248;
+    text-align: center;   
+    cursor: pointer;  
+
+    background-color: #FFFF;
+    border-top-color:#ffff;
+    border-left-color:#ffff;
+    border-right-color:#ffff;
+
+    border-bottom-color:#008248;
+    border-bottom:2px solid;
+
+} 
+
+.bttn {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #008248;
+    text-align: center;
+    background-color: #FFFF;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: #008248;
+    cursor: pointer;
+
+}
+
+.Lmbutton {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #008248;
+    text-align: center;
+    background-color: #FFFF;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid;
+    border-bottom-color: #008248;
+    cursor: pointer;
+    
+}   
+
+.Lmbutton:hover {
+    
+    background-color: #FFFF;
+    color: #008248;   
+    border:none;
+    min-width:24px;
+    min-height:24px;  
+    cursor: pointer;
+    background-color: #FFFF;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    
+}
+
+
+
+/* End: Endless */
+
+/* Begin: Cash or Card */
+
+.CashOC{
+    background-color: #f3f1e7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:64px;
+    padding-bottom:64px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.CashOCMain{
+    font-size: 28px;
+    font-weight: bolder;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align: center;
+    padding-bottom:16px;
+}
+
+
+.CashOCContent{
+    font: size 16px;
+    padding-bottom:64px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align: center;
+    max-width: 680px;  
+    margin:auto;
+}
+
+.COCFlex{
+    
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width:100%;
+    flex-basis:100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.FColumn{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    max-width: 240px;
+    padding-bottom:32px;
+   
+}
+
+.Column{
+    position: relative;
+    text-align: left;
+    padding-left:24px;
+    padding-right:24px;
+    display:flex;
+    flex-wrap:nowrap;
+    max-width:480px;
+    flex-direction:row;
+}
+
+.Column div{
+    position:relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    max-width:286px;
+}
+
+
+.Img {
+    
+    padding-right:16px;
+    height:158px;
+    width:128px;
+    justify-items:center;
+    
+}
+
+.TextMain{
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+
+.TextBody{
+    padding-top:16px;
+    text-align: left;
+}
+
+.line{
+    border-top: #bebbaf 2px solid;
+    padding-top:24px;
+    padding-bottom:48px;
+}
+
+
+.SStar {
+    font-size: 24px;
+    font-weight: bolder;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    min-width: 240px;
+    
+    
+}
+
+.ImSStar{
+    align-content:center;
+    padding-bottom: 20px;
+    padding-right:6px;
+}
+
+/* End: Cash or Card */
